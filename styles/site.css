@@ -1,0 +1,54 @@
+:root{
+    --primary:beige;
+    --secondary:#00C9E3;
+    --tertiary:#007691;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color:#434934;
+    margin:0 0;
+    background-color: var(--primary);
+}
+
+nav{
+    width: 100%;
+    background-color: var(--secondary);
+    overflow: auto;
+}
+
+nav h1{
+    margin:0 0;
+    color:white;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+ul{
+    margin:15px 0;
+    text-align: center;
+    list-style: none;
+}
+li{
+    margin:0 15px;
+    display: inline;
+    font-size: 1.5em;
+}
+
+main{
+
+    margin:0 auto;
+    height:1500px;
+    width:95%;
+    border-radius: 25px;
+    background-color: white;
+}
+
+footer{
+    text-align:center;
+}
+#logo{
+
+    position: relative;
+    float:left;
+}

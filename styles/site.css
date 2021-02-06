@@ -35,6 +35,12 @@ li{
     font-size: 1.5em;
 }
 
+/* Will likely need to change to <a> tags at a later time */
+nav li:hover { 
+    text-decoration:underline;
+    font-weight: bold;
+}
+
 main{
 
     margin:0 auto;
